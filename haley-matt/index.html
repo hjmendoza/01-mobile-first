@@ -7,15 +7,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- TODO: Add a link to a normalize.css file, which should be in your vendor/styles/ directory -->
-  <link rel="stylesheet" type="text/css" href="vendor/style/normalize.css">
+  <link rel="stylesheet" type="text/css" href="vendor/styles/normalize.css">
   <!-- TODO: Link in the provided styles/icons.css file so that you can use icon fonts -->
-  <link rel="stylesheet" type="text/css" href="vendor/style/icons.css">
+  <link rel="stylesheet" type="text/css" href="vendor/styles/icons.css">
   <!-- TODO: Link in your SMACSS-appropriate CSS files: base, layout, and modules -->
-  <link rel="stylesheet" type="text/css" href="style/base.css">
-  <link rel="stylesheet" type="text/css" href="style/layout.css">
-  <link rel="stylesheet" type="text/css" href="style/modules.css">
+  <link rel="stylesheet" type="text/css" href="styles/base.css">
+  <link rel="stylesheet" type="text/css" href="styles/layout.css">
+  <link rel="stylesheet" type="text/css" href="styles/modules.css">
   <!-- COMMENT: Explain the ordering of the loading of the stylesheets -->
-  They load in descending order.
+  <!-- They load in descending order. -->
 
   <!-- REVIEW: This is the favicon -->
   <link rel="icon" type="image/x-icon" href="https://avatars2.githubusercontent.com/u/18607604?v=3&s=200">
@@ -25,7 +25,7 @@
   <header class="site-header clearfix">
     <!-- COMMENT: Read the CSS Tricks article on clearfix, and explain in your own words how they are used. -->
     <!-- https://css-tricks.com/snippets/css/clear-fix/ -->
-    Clearfix is an easy way to remove all styling from an element's child elements. It is typically used with float. 
+    <!-- Clearfix is an easy way to remove all styling from an element's child elements. It is typically used with float.  -->
 
     <section class="heading-group-h1">
       <h1>
@@ -48,7 +48,7 @@
   <main>
     <section id="articles" class="tab-content">
       <article class="clearfix" data-category="bacon">
-          <header>
+          <header class = "title">
             <h1>Bacon Ipsum</h1>
             <!-- REVIEW: Look closely at the HTML structure of this "byline" div, as it will affect how you choose to target these elements in CSS. -->
             <div class="byline">
