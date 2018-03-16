@@ -1,23 +1,70 @@
-@media only screen and (max-width: 640px) {
-  html, body {
-    width: 100%;
-    font-family: helvetica;
-  }
 
-  header{
-    background: #ffe680;
-    padding: 1.5%;
-  }
 
-  .title{
-    background-color: white;
-  }
+html, body {
+  width: 100%;
+  font-family: helvetica;
+}
 
-  ul {
-    /* this is a hack for collapsing space between inline block elements */
-    font-size: 0;
-    padding-left: 1%;
-  }
+header{
+  background: #ffe680;
+  padding: 1.5%;
+}
+
+.title{
+  background-color: white;
+}
+
+ul {
+  /* this is a hack for collapsing space between inline block elements */
+  font-size: 0;
+  padding-left: 1%;
+}
+
+
+address a{
+  font-weight: bold;
+  display: inline-block;
+}
+
+.byline{
+  color: gray;
+  display: inline-block;
+}
+
+address{
+  display: inline-block;
+}
+
+time{
+  display: inline-block;
+}
+
+.article-body{
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+}
+
+.pull-right{
+  float: right;
+  max-width: 100%;
+}
+
+.pull-left{
+  float: left;
+  max-width: 100%;
+} 
+
+/* .hamburger:hover .main-nav ul{
+  display: block;
+} */
+.hamburger:hover .heading-group-h1{
+  display: none;
+}
+
+@media only screen and (min-width: 640px) {
+  /* .hamburger {
+    display: none;
+    } */
 
   li {
     font-size: 1.5rem;
@@ -26,61 +73,15 @@
     display: inline-block;
     padding: 1%;
   }
-
+  
   a {
     text-decoration: none;
     color: gray;
   }
+}
 
-  .nav-ul {
-    display: none;
-  }
+address a{
+  color: gray;
+  text-decoration: none;
+}
 
-  nav:hover .nav-ul {
-    display: block;
-  } 
-
-  .hamburger {
-    display: block;
-  }
-
-    .nav-ul {
-      display: block;
-    }
-
-    .hamburger {
-      display: none;
-    }
-  }
-  address a{
-    font-weight: bold;
-    display: inline-block;
-  }
-
-  .byline{
-    color: gray;
-    display: inline-block;
-  }
-
-  address{
-    display: inline-block;
-  }
-
-  time{
-    display: inline-block;
-  }
-
-  .article-body{
-    padding-left: 1.5%;
-    padding-right: 1.5%;
-  }
-
-  .pull-right{
-    float: right;
-    max-width: 100%;
-  }
-
-  .pull-left{
-    float: left;
-    max-width: 100%;
-  }
