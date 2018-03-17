@@ -14,8 +14,12 @@ li {
 address a{
   font-weight: bold;
   display: inline-block;
+  text-decoration: none;
 }
-
+a{
+  text-decoration: none;
+  color: gray;
+}
 .byline{
   color: gray;
   display: inline-block;
